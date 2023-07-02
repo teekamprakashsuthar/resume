@@ -1,0 +1,272 @@
+#red {
+    background-color: white;
+    width: 70%;
+    box-shadow: 0 20px 20px 5px rgba(0, 0, 0, .2);
+}
+
+@media (max-width: 768px) {
+    #red {
+        width: 100%;
+    }
+}
+
+body {
+    background-color: rgb(214, 174, 255) !important;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 0;
+    text-transform: uppercase;
+    border-bottom: 3px solid #000;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+img {
+    margin-top: 20px;
+    border-radius: 100%;
+    aspect-ratio: 1;
+}
+
+.col-sm-4 {
+    background-color: rgb(0, 0, 0);
+}
+
+.education {
+    color: white;
+    font-size: 30px;
+    position: relative;
+
+}
+
+.underline {
+    padding-top: 50px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5) !important;
+}
+
+main hr {
+    border: 4px;
+    background-color: rgb(255, 255, 255);
+    height: 5px;
+    margin: 10px;
+    width: 332px;
+}
+
+.text {
+    align-items: center;
+    padding-top: 15px;
+    color: white;
+    text-decoration: dashed;
+}
+
+.deegre-name {
+    font-size: 22px;
+    color: rgba(243, 157, 174, 0.603);
+}
+
+.collage-name {
+    font-size: 18px;
+
+}
+
+.date {
+    color: rgba(255, 255, 255, 0.466);
+}
+
+.div {
+    padding-left: 90px;
+    padding-top: 25px;
+    height: 10px;
+    width: 40px;
+    border: 2.5rem;
+    color: rgba(255, 241, 225, 0.578);
+    transform: rotate(90deg);
+}
+
+.circle1st {
+    margin-bottom: 80%;
+}
+
+.text {
+    align-items: center;
+    padding-top: 15px;
+    color: white;
+    text-decoration: dashed;
+}
+
+.deegre-name {
+    font-size: 22px;
+
+    color: rgba(243, 157, 174, 0.603);
+}
+
+.collage-name {
+    font-size: 18px;
+
+}
+
+.date-1 {
+    color: rgba(255, 0, 0, 0.466);
+}
+
+.date-2 {
+    color: rgba(255, 255, 255, 0.466);
+}
+
+.div {
+    padding-left: 90px;
+    padding-top: 25px;
+    height: 10px;
+    width: 40px;
+    border: 2.5rem;
+    color: rgba(255, 241, 225, 0.578);
+    transform: rotate(90deg);
+}
+
+.circle1st {
+    margin-bottom: 80%;
+}
+
+.referance {
+    color: white;
+    padding-top: 50px;
+    font-size: 30px;
+    position: relative;
+}
+
+.container1st {
+    padding-top: 70px;
+}
+
+
+.col1st {
+    background-color: rgb(255, 213, 0);
+
+}
+
+.col2nd {
+    background-color: rgba(75, 75, 75, 0.379);
+    padding-top: 5px;
+    color: rgba(221, 206, 206, 0.804);
+    font-size: 20px;
+}
+
+.under-row {
+    color: rgba(221, 206, 206, 0.804);
+    margin-left: 60px;
+    font-size: 18px;
+}
+
+.container-2 {
+    padding-top: 90px;
+}
+
+.row-1st {
+    background-color: rgb(0, 0, 0);
+    height: 200px;
+}
+
+.header {
+    background-color: #fecb00;
+    margin-top: 80px;
+    padding: 40px 40px;
+}
+
+.name {
+    font-size: 45px;
+    color: #000;
+}
+
+.title {
+    color: #000;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.objective {
+    font-size: 30px;
+    font-size: 30px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.to-leverage {
+    margin-left: 0px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.Operating {
+    padding-top: 25px;
+}
+
+mark {
+    color: rgba(95, 158, 160, 0.811);
+}
+
+.progress {
+    margin-bottom: 25px;
+    height: 20px !important;
+}
+
+.skill {
+    font-size: 20px;
+
+    color: darkslategray;
+}
+
+.contact-item,
+.contact-item a {
+    color: white;
+}
+
+.contact-item a {
+    text-decoration: none;
+}
+
+.contact-item .label {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.contact-item>div {
+    padding-left: 4rem;
+}
+
+.contact-item .label {
+    background-color: rgba(255, 255, 255, .2);
+    position: relative;
+}
+
+.contact-item .label:before {
+    display: inline-block;
+    content: ' ';
+    background-color: #fecb00;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 3rem;
+}
+
+.contact-item .value {
+    margin-bottom: 15px;
+}
+
+@media (max-width: 576px) {
+    .objective h2 {
+        font-size: 18px;
+    }
+
+    .header {
+        padding: 40px 20px;
+    }
+
+    .name {
+        font-size: 26px;
+    }
+}
